@@ -1,0 +1,3 @@
+[submodule "lib/kicad-lib"]
+	path = lib/kicad-lib
+	url = git@github.com:GuilleGonzzalez/kicad-lib.git
