@@ -539,7 +539,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "outputs/3d.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
