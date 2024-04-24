@@ -55,7 +55,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "missing_courtyard|116990000|70064500|b558e5cc-84eb-4764-bfcf-4f5ce8bafd5b|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|141390000|73064500|f88ddd7e-a0c3-4267-bdb6-40badb46d5d2|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|165190000|86864500|6048f6fb-9c12-4b35-b31d-6334d8cea555|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|181390000|77664500|b4a3ec62-b3fc-4ad9-95d0-76cbd1bb5515|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|117900000|120550000|fbbe71fc-ccc4-4af7-9ca7-b15457accee8|0f77f1f7-049a-4428-8fdf-1ccab987ab79",
+        "silk_edge_clearance|135900000|120550000|fbbe71fc-ccc4-4af7-9ca7-b15457accee8|8c29f728-2506-467b-91be-b5da0f9c0d3f"
+      ],
       "meta": {
         "version": 2
       },
@@ -72,7 +79,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -84,14 +91,14 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "warning",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "warning",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -530,6 +537,18 @@
       {
         "netclass": "Mains",
         "pattern": "/NO3"
+      },
+      {
+        "netclass": "Mains",
+        "pattern": "/P1"
+      },
+      {
+        "netclass": "Mains",
+        "pattern": "/P2"
+      },
+      {
+        "netclass": "Mains",
+        "pattern": "/P3"
       }
     ]
   },
