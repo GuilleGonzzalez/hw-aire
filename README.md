@@ -70,3 +70,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 [Unreleased]: https://github.com/GuilleGonzzalez/hw-aire
 [2.0.0]: https://github.com/GuilleGonzzalez/hw-aire/releases/tag/v2.0.0
+[3.0.0]: https://github.com/GuilleGonzzalez/hw-aire/releases/tag/v3.0.0
